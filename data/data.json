@@ -1,9 +1,9 @@
 {
   "events": {
     "latestEvent": {
-      "image": "/resources/events/nexagate trip - pic.jpeg",
+      "image": "../resources/events/nexagate trip - pic.jpeg",
       "title": "FIELD TRIP TO NEXAGATE",
-      "description": "Our club recently had the opportunity to visit Nexagate and explore the real-world applications of cybersecurity. During the visit, we were introduced to the range of services they offer and got an inside look at their Security Operations Center (SOC), where we observed how threats are monitored and managed in real time. This experience provided us with a clearer picture of the industry and inspired us to continue developing our skills in cybersecurity. A big thank you to Nexagate for the warm welcome and valuable insights."
+      "description": " to visit Nexagate and explore the real-world applications of cybersecurity. During the visit, we were introduced to the range of services they offer and got an inside look at their Security Operations Center (SOC), where we observed how threats are monitored and managed in real time. This experience provided us with a clearer picture of the industry and inspired us to continue developing our skills in cybersecurity. A big thank you to Nexagate for the warm welcome and valuable insights."
     },
     "upcomingEvent": {
       "image": "",
