@@ -222,7 +222,9 @@ document.addEventListener("DOMContentLoaded", () => {
       if (latestEventimgElement) {
         const newImg = document.createElement("img");
         latestEventimgElement.appendChild(newImg);
-        newImg.src = data.events.latestEvent.image;
+
+        newImgName = data.events.latestEvent.image;
+        newImg.src = `./resources/events/${newImgName}`;
       }
 
       if (latestEventh4Element) {
@@ -244,7 +246,8 @@ document.addEventListener("DOMContentLoaded", () => {
           );
 
           buttonReg.style.display = "none";
-          upomingEventImgElement.src = "./resources/events/NO UPCOMING EVENT.png";
+          upomingEventImgElement.src =
+            "./resources/events/NO UPCOMING EVENT.png";
           upomingEventImgElement.style = "margin-bottom: 5rem;";
         } else {
           upomingEventImgElement.src = data.events.upcomingEvent.image;
