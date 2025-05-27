@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const yearKey = `year${year}`;
     const events = data.events.pastEvent[yearKey];
+    const pathImage = `./resources/past events/${year} event/`;
 
     events.forEach((event, index) => {
       const isWhite = index % 2 === 0;
@@ -66,12 +67,23 @@ document.addEventListener("DOMContentLoaded", () => {
           ${
             isWhite
               ? `
-            <div class="image-crop">
-              <div class="container">
-                <img src="./resources/past events/${year} event/${
-                  event.image
-                }" alt="">
+            <div class="image-sliding" >
+              <div class="slider-container" id="event-slide">
+                <div class="slider">
+                  ${event.image
+                    .map(
+                      (img, i) => `
+                      <div class="slide">
+                        <img src="${pathImage + img}" alt="Slide ${i + 1}" />
+                      </div>
+                    `
+                    )
+                    .join("")}
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
               </div>
+              <div class="dots-container"></div>
             </div>
             <div class="text">
               <h4>🚩 ${event.title || ""}</h4>
@@ -85,12 +97,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p>${event.description || ""}</p>
               </div>
             </div>
-            <div class="image-crop">
-              <div class="container">
-                <img src="./resources/past events/${year} event/${
-                  event.image
-                }" alt="">
+            <div class="image-sliding" >
+              <div class="slider-container" id="event-slide">
+                <div class="slider">
+                ${event.image
+                  .map(
+                    (img, i) => `
+                    <div class="slide">
+                      <img src="${pathImage + img}" alt="Slide ${i + 1}" />
+                    </div>
+                  `
+                  )
+                  .join("")}
               </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+              </div>
+              <div class="dots-container"></div>
             </div>
           `
           }
@@ -166,6 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       container.appendChild(pageDiv);
     });
+    initializeSliders();
   };
 
   // hamburger menu
@@ -195,103 +219,105 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // image sliding
-  document.querySelectorAll(".image-sliding").forEach((container) => {
-    let currentIndex = 1;
-    const slider = container.querySelector(".slider");
-    const slides = container.querySelectorAll(".slide");
-    const totalSlides = slides.length;
-    const dotsContainer = container.querySelector(".dots-container");
-    let isSliding = false;
+  const initializeSliders = () => {
+    document.querySelectorAll(".image-sliding").forEach((container) => {
+      let currentIndex = 1;
+      const slider = container.querySelector(".slider");
+      const slides = container.querySelectorAll(".slide");
+      const totalSlides = slides.length;
+      const dotsContainer = container.querySelector(".dots-container");
+      let isSliding = false;
 
-    const firstClone = slides[0].cloneNode(true);
-    const lastClone = slides[totalSlides - 1].cloneNode(true);
-    slider.appendChild(firstClone);
-    slider.insertBefore(lastClone, slides[0]);
+      const firstClone = slides[0].cloneNode(true);
+      const lastClone = slides[totalSlides - 1].cloneNode(true);
+      slider.appendChild(firstClone);
+      slider.insertBefore(lastClone, slides[0]);
 
-    const updatedSlides = container.querySelectorAll(".slide");
-    const totalUpdatedSlides = updatedSlides.length;
+      const updatedSlides = container.querySelectorAll(".slide");
+      const totalUpdatedSlides = updatedSlides.length;
 
-    for (let i = 0; i < totalSlides; i++) {
-      let dot = document.createElement("span");
-      dot.classList.add("dot");
-      dot.addEventListener("click", () => goToSlide(i + 1));
-      dotsContainer.appendChild(dot);
-    }
-
-    const dots = container.querySelectorAll(".dot");
-    updateDots();
-
-    slider.style.transform = `translateX(${-currentIndex * 100}%)`;
-
-    function updateSlide(withTransition = true) {
-      if (withTransition) {
-        isSliding = true;
-        slider.style.transition = "transform 0.5s ease-in-out";
-      } else {
-        slider.style.transition = "none";
+      for (let i = 0; i < totalSlides; i++) {
+        let dot = document.createElement("span");
+        dot.classList.add("dot");
+        dot.addEventListener("click", () => goToSlide(i + 1));
+        dotsContainer.appendChild(dot);
       }
+
+      const dots = container.querySelectorAll(".dot");
+      updateDots();
 
       slider.style.transform = `translateX(${-currentIndex * 100}%)`;
 
-      setTimeout(() => {
-        isSliding = false;
-      }, 500);
-
-      updateDots();
-    }
-
-    function moveSlide(direction) {
-      if (isSliding) return;
-
-      currentIndex += direction;
-      updateSlide(true);
-
-      setTimeout(() => {
-        if (currentIndex === totalUpdatedSlides - 1) {
-          currentIndex = 1;
-          updateSlide(false);
-        } else if (currentIndex === 0) {
-          currentIndex = totalUpdatedSlides - 2;
-          updateSlide(false);
+      function updateSlide(withTransition = true) {
+        if (withTransition) {
+          isSliding = true;
+          slider.style.transition = "transform 0.5s ease-in-out";
+        } else {
+          slider.style.transition = "none";
         }
-      }, 500);
-    }
 
-    function goToSlide(slideNumber) {
-      if (isSliding) return;
-      currentIndex = slideNumber;
-      updateSlide(true);
-    }
+        slider.style.transform = `translateX(${-currentIndex * 100}%)`;
 
-    function updateDots() {
-      dots.forEach((dot) => dot.classList.remove("active"));
-      let realIndex =
-        currentIndex === totalUpdatedSlides - 1
-          ? 1
-          : currentIndex === 0
-          ? totalSlides
-          : currentIndex;
-      dots[realIndex - 1].classList.add("active");
-    }
+        setTimeout(() => {
+          isSliding = false;
+        }, 500);
 
-    let slideInterval = setInterval(() => moveSlide(1), 3000);
+        updateDots();
+      }
 
-    container
-      .querySelector(".slider-container")
-      .addEventListener("mouseover", () => clearInterval(slideInterval));
-    container
-      .querySelector(".slider-container")
-      .addEventListener("mouseleave", () => {
-        slideInterval = setInterval(() => moveSlide(1), 3000);
-      });
+      function moveSlide(direction) {
+        if (isSliding) return;
 
-    container
-      .querySelector(".prev")
-      .addEventListener("click", () => moveSlide(-1));
-    container
-      .querySelector(".next")
-      .addEventListener("click", () => moveSlide(1));
-  });
+        currentIndex += direction;
+        updateSlide(true);
+
+        setTimeout(() => {
+          if (currentIndex === totalUpdatedSlides - 1) {
+            currentIndex = 1;
+            updateSlide(false);
+          } else if (currentIndex === 0) {
+            currentIndex = totalUpdatedSlides - 2;
+            updateSlide(false);
+          }
+        }, 500);
+      }
+
+      function goToSlide(slideNumber) {
+        if (isSliding) return;
+        currentIndex = slideNumber;
+        updateSlide(true);
+      }
+
+      function updateDots() {
+        dots.forEach((dot) => dot.classList.remove("active"));
+        let realIndex =
+          currentIndex === totalUpdatedSlides - 1
+            ? 1
+            : currentIndex === 0
+            ? totalSlides
+            : currentIndex;
+        dots[realIndex - 1].classList.add("active");
+      }
+
+      let slideInterval = setInterval(() => moveSlide(1), 3000);
+
+      container
+        .querySelector(".slider-container")
+        .addEventListener("mouseover", () => clearInterval(slideInterval));
+      container
+        .querySelector(".slider-container")
+        .addEventListener("mouseleave", () => {
+          slideInterval = setInterval(() => moveSlide(1), 3000);
+        });
+
+      container
+        .querySelector(".prev")
+        .addEventListener("click", () => moveSlide(-1));
+      container
+        .querySelector(".next")
+        .addEventListener("click", () => moveSlide(1));
+    });
+  };
 
   const trandingfunc = () => {
     let trandingSlider = document.querySelector(".tranding-slider");
@@ -422,5 +448,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  initializeSliders();
   main();
 });
