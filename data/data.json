@@ -8,6 +8,37 @@
     "upcomingEvent": {
       "image": "",
       "title": ""
+    },
+    "pastEvent": {
+      "year2024": [
+        {
+          "image": "2024 - test.jpg",
+          "title": "2024 - test",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+        },
+        {
+          "image": "2024 - test 2.jpg",
+          "title": "2024 - test 2",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+        }
+      ],
+      "year2025": [
+        {
+          "image": "2025 - test.jpg",
+          "title": "2025 - test",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+        },
+        {
+          "image": "2025 - test 2.jpg",
+          "title": "2025 - test 2",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+        },
+        {
+          "image": "2025 - test 2.jpg",
+          "title": "2025 - test 3",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+        }
+      ]
     }
   }
 }
