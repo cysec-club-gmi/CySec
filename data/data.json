@@ -17,26 +17,31 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
         },
         {
-          "image": ["2024 - test.jpg", "2024 - test 2.jpg"],
-          "title": "2024 - test 2",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+          "image": ["MobilePT.jpg", "rawSEC_Workshop_Participants.jpg","rawSEC_SLIDE.jpg","Participant_Sharing.jpg"],
+          "title": "MOBILE PENETRATION TESTING WORKSHOP",
+          "description": "The CYSEC Club and rawSEC worked together to host a session on April 26, 2025.  This workshop's focus is mobile penetration testing (Android).  Students will learn the fundamentals of developing mobile applications, how to exploit Android device vulnerabilities, and how to run a remote access trojan in an Android-controlled environment.  Forty students are taking part in this event."
         }
       ],
       "year2025": [
         {
-          "image": ["2025 - test.jpg", "2025 - test 2.jpg"],
-          "title": "2025 - test",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+          "image": ["MobilePT.jpg", "rawSEC_Workshop_Participants.jpg","rawSEC_SLIDE.jpg","Participant_Sharing.jpg"],
+          "title": "MOBILE PENETRATION TESTING WORKSHOP",
+          "description": "The CYSEC Club and rawSEC worked together to host a session on April 26, 2025.  This workshop's focus is mobile penetration testing (Android).  Students will learn the fundamentals of developing mobile applications, how to exploit Android device vulnerabilities, and how to run a remote access trojan in an Android-controlled environment.  Forty students are taking part in this event."
+        }
+        {
+          "image": ["PhishingPoster.jpg", "WebinarOnGoing.jpg"],
+          "title": "PHISHING AWARENESS WEBINAR",
+          "description": "On 22nd March 2025, CYSEC Club collaborated with OWASP, 0day Academy and OffSec in conducting an online webinar open to all universities nationwide. The major topic of this webinar is Social Engineering & Phishing in The Age Of AI. This webinar explains how social engineering works, how malicious actors leverage AI technology to craft a payload, and mitigation techniques that may be used to defend against these actors."
         },
         {
-          "image": ["2025 - test.jpg", "2025 - test 2.jpg"],
-          "title": "2025 - test 2",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+          "image": ["BTEPoster.jpg", "BTE_BRIEFING_2.png","BTE_WINNERS_CROPPED.jpg"],
+          "title": "GMi BREAK THE ENIGMA CTF",
+          "description": "On March 18, 2025, the CYSEC Club organizes an internal university capture-the-flag competition focused on cryptography.  Compete against over 40 other student to earn a total prize fund of RM600.  The CYSEC Club challenge creator has prepared 40+ difficulties ranging from symmetrical and asymmetrical encryption to hashing and obfuscation for players to solve."
         },
         {
-          "image": ["2025 - test.jpg", "2025 - test 2.jpg"],
-          "title": "2025 - test 3",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
+          "image": ["WORKSHOP_MCC24_ALUMNI.jpg", "BLUE_TEAM_SLIDE.jpg","RED_TEAM_SLIDE.jpg","INTERACTIVE_LEARNING.jpg"],
+          "title": "RED & BLUE TEAM WORKSHOP BY MCC 2024 ALUMNIS",
+          "description": "The CYSEC Club hosted a unique session with alumni of the Malaysia CyberSecurity Camp 2024 from February 22 to February 23, 2025.  The workshop's topics center on the theory and core of the blue team and the red team.  This workshop's goal is to provide a clear understanding of the duties and responsibilities of both the Red Team and the Blue Team.  Thus, assisting students in choosing their industry career path."
         }
       ]
     }
