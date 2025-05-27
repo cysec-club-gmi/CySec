@@ -602,6 +602,10 @@
       window.addEventListener("load", function () {
         feather.replace();
         AOS.init({ once: true });
+
+        setTimeout(() => {
+          AOS.refreshHard(); 
+        }, 100); 
       });
     </script>
   </body>
