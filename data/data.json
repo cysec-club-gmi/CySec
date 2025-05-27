@@ -18,6 +18,16 @@
         }
       ],
       "year2025": [
+                {
+          "image": [
+            "VisitNexagate.jpeg",
+            "Nexa_SOC_CENTRE.jpeg",
+            "Nexa_Showcase.jpeg",
+            "GMI_GENERATION.JPG"
+          ],
+          "title": "SOC VISIT TO NEXAGATE",
+          "description": "Embarked on a field trip for 40 students of German-Malaysian Institute to Nexagate, South East Asian’s leading cybersecurity firm. The trip featured hands-on insights into Security Operations Centers (SOC), live penetration testing demos, and incident response protocols. Participants experienced real-world cyberattack simulations and engaged with industry experts, gaining a deeper understanding of digital defense strategies."
+        },
         {
           "image": [
             "MobilePT.jpg",
