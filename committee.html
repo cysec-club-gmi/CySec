@@ -395,15 +395,17 @@
     ></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    <script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+    <script defer>
+      window.addEventListener("load", function () {
         feather.replace();
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true
+        AOS.init({ once: true });
+
+        setTimeout(() => {
+          AOS.refreshHard(); 
+        }, 100); 
       });
     </script>
-    <script src="script.js"></script>
 </body>
 </html>
