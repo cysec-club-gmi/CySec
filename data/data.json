@@ -15,11 +15,6 @@
           "image": ["2024 - test.jpg", "2024 - test 2.jpg"],
           "title": "2024 - test",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolorem reprehenderit ratione quas. Molestias aperiam deserunt iure? Rem ut qui dolorum odio, repellendus perspiciatis iste ducimus placeat molestiae, quod, reiciendis hic eveniet impedit. Sapiente voluptates distinctio sequi accusamus sint, dolores, qui corrupti quis natus cum quo porro mollitia velit maxime hic maiores culpa, autem reprehenderit explicabo eos eum enim suscipit? Amet assumenda unde molestias ipsa voluptas quam qui consequuntur cumque aliquid praesentium nihil suscipit, aut eius officiis doloremque dolore nesciunt laboriosam consectetur facilis, distinctio itaque possimus ab quae. Dignissimos quis facere repellat harum ad mollitia porro quas quae laboriosam nam."
-        },
-        {
-          "image": ["MobilePT.jpg", "rawSEC_Workshop_Participants.jpg","rawSEC_SLIDE.jpg","Participant_Sharing.jpg"],
-          "title": "MOBILE PENETRATION TESTING WORKSHOP",
-          "description": "The CYSEC Club and rawSEC worked together to host a session on April 26, 2025.  This workshop's focus is mobile penetration testing (Android).  Students will learn the fundamentals of developing mobile applications, how to exploit Android device vulnerabilities, and how to run a remote access trojan in an Android-controlled environment.  Forty students are taking part in this event."
         }
       ],
       "year2025": [
