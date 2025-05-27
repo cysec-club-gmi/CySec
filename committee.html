@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="./resources/1.png" type="image/png" />
+  <link rel="icon" href="./resources/1.png" type="image/png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <script src="https://unpkg.com/feather-icons"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- header -->
@@ -395,16 +395,14 @@
     ></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
-    <script src="script.js" defer></script>
-    <script defer>
-      window.addEventListener("load", function () {
-        feather.replace();
-        AOS.init({ once: true });
-
-        setTimeout(() => {
-          AOS.refreshHard(); 
-        }, 100); 
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script>
+      AOS.init({
+        once: true,
       });
     </script>
 </body>
