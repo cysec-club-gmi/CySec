@@ -1681,7 +1681,7 @@ footer p {
 }
 
 .grey-page > .content > .content-container > .text h4 {
-  width: 70%;
+  width: 100%;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
