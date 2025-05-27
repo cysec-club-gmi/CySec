@@ -367,6 +367,14 @@ header .logo {
   margin: auto;
 }
 
+#event-slide.slider-container {
+  position: relative;
+  width: 40vw;
+  height: 25vw; /* Set a fixed height for consistency */
+  overflow: hidden;
+  margin: auto;
+}
+
 .slider {
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -1147,7 +1155,7 @@ img[alt="benefit3"] {
 
 .coming-soon-curve {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -1600,28 +1608,9 @@ footer p {
   align-items: center;
 }
 
-.white-page > .content > .content-container > .image-crop {
-  margin: 1.5rem;
-}
-
-.white-page > .content > .content-container > .image-crop > .container {
-  width: 40vw;
-  height: 25vw;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.white-page > .content > .content-container > .image-crop > .container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .white-page > .content > .content-container > .text {
   position: relative;
-  margin: 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .white-page > .content > .content-container > .text h4 {
@@ -1656,28 +1645,9 @@ footer p {
   align-items: center;
 }
 
-.grey-page > .content > .content-container > .image-crop {
-  margin: 1.5rem;
-}
-
-.grey-page > .content > .content-container > .image-crop > .container {
-  width: 40vw;
-  height: 25vw;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.grey-page > .content > .content-container > .image-crop > .container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .grey-page > .content > .content-container > .text {
   position: relative;
-  margin: 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .grey-page > .content > .content-container > .text h4 {
@@ -1949,23 +1919,17 @@ footer p {
 }
 
 @media (max-width: 1024px) {
+  #event-slide.slider-container {
+    width: 90vw;
+    height: 55vw;
+  }
+
   .white-page > .content > .content-container {
     flex-direction: column;
   }
 
   .grey-page > .content > .content-container {
     flex-direction: column-reverse;
-  }
-
-  .white-page > .content > .content-container > .image-crop,
-  .grey-page > .content > .content-container > .image-crop {
-    margin: 0;
-  }
-
-  .white-page > .content > .content-container > .image-crop > .container,
-  .grey-page > .content > .content-container > .image-crop > .container {
-    width: 90vw;
-    height: 55vw;
   }
 
   .white-page > .content > .content-container > .text h4,
@@ -2344,20 +2308,9 @@ footer p {
     width: 25vw;
   }
 
-  .white-page > .content > .content-container > .image-crop > .container,
-  .grey-page > .content > .content-container > .image-crop > .container {
+  #event-slide.slider-container {
     width: 80vw;
     height: 45vw;
-  }
-
-  .white-page > .content > .content-container > .text h4,
-  .grey-page > .content > .content-container > .text h4 {
-    font-size: 45px;
-  }
-
-  .white-page > .content > .content-container > .text p,
-  .grey-page > .content > .content-container > .text p {
-    font-size: 150%;
   }
 
   .grey-page-wave-blue-1 svg {
@@ -2388,25 +2341,14 @@ footer p {
     flex-direction: column-reverse;
   }
 
-  .white-page > .content > .content-container > .image-crop,
-  .grey-page > .content > .content-container > .image-crop {
-    margin: 0;
-  }
-
-  .white-page > .content > .content-container > .image-crop > .container,
-  .grey-page > .content > .content-container > .image-crop > .container {
-    width: 40vw;
-    height: 25vw;
-  }
-
   .white-page > .content > .content-container > .text h4,
   .grey-page > .content > .content-container > .text h4 {
-    font-size: 25px;
+    font-size: 45px;
   }
 
   .white-page > .content > .content-container > .text p,
   .grey-page > .content > .content-container > .text p {
-    font-size: 80%;
+    font-size: 130%;
   }
 }
 
@@ -2653,6 +2595,11 @@ footer p {
     width: 70vw;
   }
 
+  #event-slide.slider-container {
+    width: 85vw;
+    height: 55vw;
+  }
+
   .white-page {
     height: 80vh;
   }
@@ -2674,12 +2621,6 @@ footer p {
   .white-page > .content > .content-container > .text p,
   .grey-page > .content > .content-container > .text p {
     font-size: 80%;
-  }
-
-  .white-page > .content > .content-container > .image-crop > .container,
-  .grey-page > .content > .content-container > .image-crop > .container {
-    width: 80vw;
-    height: 55vw;
   }
 
   .grey-page-wave-blue-1 svg {
