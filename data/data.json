@@ -24,7 +24,7 @@
       ],
       "year2025": [
         {
-          "image": "/resources/PhishingWebinar.jpeg",
+          "image": "PhishingPoster.jpeg",
           "title": "2025 - PHISHING AWARENESS WEBINAR",
           "description": "On 22nd March 2025, CYSEC Club collaborated with OWASP, 0day Academy and OffSec in conducting an online webinar open to all universities nationwide. The major topic of this webinar is Social Engineering & Phishing in The Age Of AI. This webinar explains how social engineering works, how malicious actors leverage AI technology to craft a payload, and mitigation techniques that may be used to defend against these actors."
         },
