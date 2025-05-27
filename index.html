@@ -301,13 +301,10 @@
 
         <div class="content" data-aos="fade-up" data-aos-delay="300">
           <div class="image-wrapper">
-            <img
-              src="./resources/WhatsApp Image 2025-04-08 at 2.02.20 PM.jpeg"
-              alt=""
-            />
+            <img />
           </div>
 
-          <button><a href="#">Register Now</a></button>
+          <button><a href="#" target="_blank">Register Now</a></button>
         </div>
       </div>
     </div>
@@ -392,7 +389,9 @@
           </div>
           <h3 data-aos="fade-up">Become a member today!</h3>
           <button data-aos="fade-up">
-            <a href="https://forms.gle/mHQKqZh3W9cHJ5TD9">Apply As Member</a>
+            <a href="https://forms.gle/mHQKqZh3W9cHJ5TD9" target="_blank"
+              >Apply As Member</a
+            >
           </button>
 
           <!-- wave start -->
@@ -454,7 +453,9 @@
             <div class="linktree">
               <p>Visit our Linktree</p>
               <button>
-                <a href="https://linktr.ee/gmi.cysecclub">Linktree</a>
+                <a href="https://linktr.ee/gmi.cysecclub" target="_blank"
+                  >Linktree</a
+                >
               </button>
             </div>
           </div>
@@ -595,15 +596,13 @@
       </div>
     </footer>
 
-    <script>
-      feather.replace();
-    </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true,
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+    <script defer>
+      window.addEventListener("load", function () {
+        feather.replace();
+        AOS.init({ once: true });
       });
     </script>
-    <script src="script.js"></script>
   </body>
 </html>
