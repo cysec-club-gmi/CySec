@@ -23,24 +23,29 @@
         }
       ],
       "year2025": [
-                {
+        {
+          "image": "VisitNexagate.jpeg",
+          "title": "FIELD TRIP TO NEXAGATE",
+          "description": "Embarked on a field trip for 40 students of German-Malaysian Institute to Nexagate, South East Asian’s leading cybersecurity firm. The trip featured hands-on insights into Security Operations Centers (SOC), live penetration testing demos, and incident response protocols. Participants experienced real-world cyberattack simulations and engaged with industry experts, gaining a deeper understanding of digital defense strategies."
+        },
+        {
           "image": "MobilePT.jpg",
-          "title": "2025 - RAWSEC: MOBILE PENETRATION TESTING WORKSHOP",
+          "title": "MOBILE PENETRATION TESTING WORKSHOP",
           "description": "The CYSEC Club and rawSEC worked together to host a session on April 26, 2025.  This workshop's focus is mobile penetration testing (Android).  Students will learn the fundamentals of developing mobile applications, how to exploit Android device vulnerabilities, and how to run a remote access trojan in an Android-controlled environment.  Forty students are taking part in this event."
         },
         {
           "image": "PhishingPoster.jpg",
-          "title": "2025 - PHISHING AWARENESS WEBINAR",
+          "title": "PHISHING AWARENESS WEBINAR",
           "description": "On 22nd March 2025, CYSEC Club collaborated with OWASP, 0day Academy and OffSec in conducting an online webinar open to all universities nationwide. The major topic of this webinar is Social Engineering & Phishing in The Age Of AI. This webinar explains how social engineering works, how malicious actors leverage AI technology to craft a payload, and mitigation techniques that may be used to defend against these actors."
         },
         {
           "image": "BTEPoster.jpg",
-          "title": "2025 - GMi BREAK THE ENIGMA CTF",
+          "title": "GMi BREAK THE ENIGMA CTF",
           "description": "On March 18, 2025, the CYSEC Club organizes an internal university capture-the-flag competition focused on cryptography.  Compete against over 40 other student to earn a total prize fund of RM600.  The CYSEC Club challenge creator has prepared 40+ difficulties ranging from symmetrical and asymmetrical encryption to hashing and obfuscation for players to solve."
         },
         {
           "image": "WORKSHOP_MCC24_ALUMNI.jpg",
-          "title": "2025 - RED & BLUE TEAM WORKSHOP BY MCC 2024 ALUMNIS",
+          "title": "RED & BLUE TEAM WORKSHOP BY MCC 2024 ALUMNIS",
           "description": "The CYSEC Club hosted a unique session with alumni of the Malaysia CyberSecurity Camp 2024 from February 22 to February 23, 2025.  The workshop's topics center on the theory and core of the blue team and the red team.  This workshop's goal is to provide a clear understanding of the duties and responsibilities of both the Red Team and the Blue Team.  Thus, assisting students in choosing their industry career path."
         }
       ]
