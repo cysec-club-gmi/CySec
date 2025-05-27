@@ -414,13 +414,16 @@ document.addEventListener("DOMContentLoaded", () => {
           const buttonReg = document.querySelector(
             "#event .sec-section .content button"
           );
-
           buttonReg.style.display = "none";
           upomingEventImgElement.src =
             "./resources/events/NO UPCOMING EVENT.png";
           upomingEventImgElement.style = "margin-bottom: 5rem;";
         } else {
-          upomingEventImgElement.src = data.events.upcomingEvent.image;
+          const buttonReg = document.querySelector(
+            "#event .sec-section .content button a"
+          );
+          upomingEventImgElement.src = `./resources/events/${data.events.upcomingEvent.image}`;
+          buttonReg.href = data.events.upcomingEvent.link;
         }
       }
 
