@@ -41,16 +41,157 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // highlight button for past events
+  const y1 = document.querySelector(".y1");
+  const y2 = document.querySelector(".y2");
+  var yearHighlightStatus = "2025";
+
+  const displayPastEvents = (year, data) => {
+    const container = document.querySelector(".events-container");
+    container.innerHTML = "";
+
+    const yearKey = `year${year}`;
+    const events = data.events.pastEvent[yearKey];
+
+    events.forEach((event, index) => {
+      const isWhite = index % 2 === 0;
+      const isLast = index === events.length - 1;
+
+      const pageDiv = document.createElement("div");
+      pageDiv.className = isWhite ? "white-page" : "grey-page";
+
+      pageDiv.innerHTML = `
+      <div class="content">
+        <div class="content-container">
+          ${
+            isWhite
+              ? `
+            <div class="image-crop">
+              <div class="container">
+                <img src="./resources/past events/${year} event/${
+                  event.image
+                }" alt="">
+              </div>
+            </div>
+            <div class="text">
+              <h4>🚩 ${event.title || ""}</h4>
+              <p>${event.description || ""}</p>
+            </div>
+          `
+              : `
+            <div class="text">
+              <div class="text-wrap">
+                <h4>🚩 ${event.title || ""}</h4>
+                <p>${event.description || ""}</p>
+              </div>
+            </div>
+            <div class="image-crop">
+              <div class="container">
+                <img src="./resources/past events/${year} event/${
+                  event.image
+                }" alt="">
+              </div>
+            </div>
+          `
+          }
+        </div>
+      </div>
+      ${
+        isLast
+          ? `
+          <div class="coming-soon-curve">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+          </div>`
+          : `<div class="wave">
+          ${
+            isWhite
+              ? `
+            <div class="grey-page-wave-blue-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,
+                  172-41.86,82.39-16.72,168.19-17.73,
+                  250.45-.39C823.78,31,906.67,72,985.66,
+                  92.83c70.05,18.48,146.53,26.09,214.34,
+                  3V0H0V27.35A600.21,600.21,0,0,0,
+                  321.39,56.44Z" class="shape-fill"></path>
+              </svg>
+            </div>
+            <div class="grey-page-wave-grey-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,
+                  172-41.86,82.39-16.72,168.19-17.73,
+                  250.45-.39C823.78,31,906.67,72,985.66,
+                  92.83c70.05,18.48,146.53,26.09,214.34,
+                  3V0H0V27.35A600.21,600.21,0,0,0,
+                  321.39,56.44Z" class="shape-fill"></path>
+              </svg>
+            </div>
+          `
+              : `
+            <div class="grey-page-wave-blue-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,
+                  172-41.86,82.39-16.72,168.19-17.73,
+                  250.45-.39C823.78,31,906.67,72,985.66,
+                  92.83c70.05,18.48,146.53,26.09,214.34,
+                  3V0H0V27.35A600.21,600.21,0,0,0,
+                  321.39,56.44Z" class="shape-fill"></path>
+              </svg>
+            </div>
+            <div class="grey-page-wave-white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,
+                  172-41.86,82.39-16.72,168.19-17.73,
+                  250.45-.39C823.78,31,906.67,72,985.66,
+                  92.83c70.05,18.48,146.53,26.09,214.34,
+                  3V0H0V27.35A600.21,600.21,0,0,0,
+                  321.39,56.44Z" class="shape-fill"></path>
+              </svg>
+            </div>
+          `
+          }
+        </div>`
+      }
+    `;
+
+      container.appendChild(pageDiv);
+    });
+  };
+
   // hamburger menu
   const hamburger = document.getElementById("hamburger");
   const navMenu = document.getElementById("navMenu");
 
-  hamburger?.addEventListener("click", () => {
+  hamburger?.addEventListener("click", (e) => {
     navMenu.classList.toggle("active");
 
     hamburger.style.color = navMenu.classList.contains("active")
       ? "black"
       : "white";
+
+    e.stopPropagation();
+  });
+
+  // when user click outside hamburger and menu
+  document.addEventListener("click", (e) => {
+    if (
+      navMenu.classList.contains("active") &&
+      !navMenu.contains(e.target) &&
+      !hamburger.contains(e.target)
+    ) {
+      navMenu.classList.remove("active");
+      hamburger.style.color = "white";
+    }
   });
 
   // image sliding
@@ -218,6 +359,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const upomingEventImgElement = document.querySelector(
         "#event .sec-section .content .image-wrapper img"
       );
+      const pastEventImgElement = document.querySelector(
+        ".white-page .content .content-container .image-crop .container img"
+      );
 
       if (latestEventimgElement) {
         const newImg = document.createElement("img");
@@ -252,6 +396,26 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           upomingEventImgElement.src = data.events.upcomingEvent.image;
         }
+      }
+
+      if (currentPage === "events.html") {
+        displayPastEvents("2025", data);
+      }
+
+      if (currentPage === "events.html") {
+        y1.addEventListener("click", () => {
+          y1.classList.add("active-year");
+          y2.classList.remove("active-year");
+          yearHighlightStatus = "2024";
+          displayPastEvents(yearHighlightStatus, data);
+        });
+
+        y2.addEventListener("click", () => {
+          y2.classList.add("active-year");
+          y1.classList.remove("active-year");
+          yearHighlightStatus = "2025";
+          displayPastEvents(yearHighlightStatus, data);
+        });
       }
     } catch (error) {
       console.error("An error occurred:", error);
