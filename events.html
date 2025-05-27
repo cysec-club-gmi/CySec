@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <script src="https://unpkg.com/feather-icons"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
   <body>
     <!-- header -->
     <header>
@@ -258,16 +258,14 @@
       </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
-    <script src="script.js" defer></script>
-    <script defer>
-      window.addEventListener("load", function () {
-        feather.replace();
-        AOS.init({ once: true });
-
-        setTimeout(() => {
-          AOS.refreshHard(); 
-        }, 100); 
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script>
+      AOS.init({
+        once: true,
       });
     </script>
   </body>
