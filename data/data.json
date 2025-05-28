@@ -12,6 +12,27 @@
     },
     "pastEvent": {
       "year2024": [
+         {
+          "image": [
+            "CSRWD_1.png", 
+            "CSRWD_2.png",
+            "CSRWD_3.png",
+            "CSRWD_4.png"
+        ],
+          "title": "CSR WEB DEFACEMENT DEMONSTRATION",
+          "description": "To close out 2024, CYSEC Club is hosted a community service program. This time, the community service program involves ILP Selandar, an industrial training institute. The objective of this program is to demonstrate potential risks of web security and mitigation techniques against web defacement."
+        },
+        {
+          "image": [
+            "SHERPACM_1.png", 
+            "SHERPACM_2.png",
+            "SHERPACM_3.png",
+            "SHERPACM_4.png",
+            "SHERPACM_5.png"
+        ],
+          "title": "SHERPASEC X CYSEC CYBERSECURITY MEETUP",
+          "description": "On October 10, 2024, the CYSEC Club partnered with SHERPASEC, a local cybersecurity community, to hold a cybersecurity meetup at the German-Malaysian Institute.  The primary goal of this cybersecurity meetup is to look into the significance of the Malaysian government's decision on the controversial DNS Redirection Policy.  This event can help provide insight into contemporary cybersecurity and policy trends."
+        },
         {
           "image": [
             "GCTFWorkshop1.png", 
