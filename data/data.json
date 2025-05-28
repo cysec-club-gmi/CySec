@@ -14,6 +14,31 @@
       "year2024": [
         {
           "image": [
+            "GCTFWorkshop1.png", 
+            "GCTFWorkshop2.png"
+        ],
+          "title": "GIRL IN CTF WORKSHOP",
+          "description": "As a build-up to RE:HACK's Girl In CTF 2024 competition. A workshop for five female CTF teams was organized by the CYSEC Club on their own initiative. Methodologies for many CTF categories, including web exploitation and OSINT, are covered in this training. To make sure the participants have the necessary skills, cybersecurity students Muhammad Aliff Zulhelmi and Adlie Hadif have volunteered for this three-session program."
+         },
+        {
+          "image": [
+            "IBOH24_1.png", 
+            "IBOH24_2.png"
+        ],
+          "title": "INTERNATIONAL BATTLE OF HACKERS 2024",
+          "description": "On September 28, 2024, the CYSEC Club funded 2 CTF teams from the German-Malaysian Institute to compete in an international CTF competition against over 100 other teams. This competition sparked GMI's CTF culture. The goal of club participation in this event is to help talented kids compete in competition and improve their talents."
+         },
+         {
+          "image": [
+            "IHACK1.png", 
+            "IHACK2.png",
+            "IHACK3.png"
+        ],
+          "title": "CYBERDSA CTF, I-HACK FINAL 2024",
+          "description": "On the same day as CYBERDSA 2024, I-HACK FINAL 2024 is also a prominent event. The Malaysian Armed Forces' Defense Cyber and Electromagnetic Division (BSEP) and TM One are organizing a CTF competition against 20 teams from across Malaysia. The final round is played in the Attack-Defense format. The CYSEC Club supported one team with four members go to the final round."
+        },
+        {
+          "image": [
             "CYBERDSA1.png", 
             "CYBERDSA2.png",
             "CYBERDSA3.png"
