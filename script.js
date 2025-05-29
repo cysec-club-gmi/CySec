@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     )
                     .join("")}
                 </div>
-                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
               </div>
               <div class="dots-container"></div>
             </div>
@@ -110,8 +110,8 @@ document.addEventListener("DOMContentLoaded", () => {
                   )
                   .join("")}
               </div>
-                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
               </div>
               <div class="dots-container"></div>
             </div>
