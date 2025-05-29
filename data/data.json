@@ -12,6 +12,20 @@
     },
     "pastEvent": {
       "year2024": [
+        {
+          "image": [
+            "MikroCTF24_1.jpg", 
+            "PosterMicroCTF.png",
+            "MicroCTFChampions.png",
+            "MikroCTF24_2.jpg",
+            "MikroCTF24_3.jpg",
+            "MikroCTF24_4.jpg",
+            "MikroCTF24_5.jpg",
+            "MikroCTF24_6.jpg"
+        ],
+          "title": "GMi MicroCTF 2024",
+          "description": "To conclude 2024, the CYSEC Club held GMi microCTF 2024, with collaboration and support from MFBKTECH, RE:HACK, ASK PENTEST, MARHAENPAY, and BLUESIFY. This university-level CTF competition attracts more than 30 teams and has a total prize pool of RM1,800. This program allows the CYSEC Club to identify hidden gems and outstanding students who can be developed to their full potential."
+        },
          {
           "image": [
             "CSRWD_1.png", 
@@ -20,7 +34,7 @@
             "CSRWD_4.png"
         ],
           "title": "CSR WEB DEFACEMENT DEMONSTRATION",
-          "description": "To close out 2024, CYSEC Club is hosted a community service program. This time, the community service program involves ILP Selandar, an industrial training institute. The objective of this program is to demonstrate potential risks of web security and mitigation techniques against web defacement."
+          "description": "On 15 October 2024, CYSEC Club is hosted a community service program. This time, the community service program involves ILP Selandar, an industrial training institute. The objective of this program is to demonstrate potential risks of web security and mitigation techniques against web defacement."
         },
         {
           "image": [
@@ -137,6 +151,16 @@
           ],
           "title": "RED & BLUE TEAM WORKSHOP BY MCC 2024 ALUMNIS",
           "description": "The CYSEC Club hosted a unique session with alumni of the Malaysia CyberSecurity Camp 2024 from February 22 to February 23, 2025.  The workshop's topics center on the theory and core of the blue team and the red team.  This workshop's goal is to provide a clear understanding of the duties and responsibilities of both the Red Team and the Blue Team.  Thus, assisting students in choosing their industry career path."
+        },
+        {
+          "image": [
+            "OPREGJan25_1.jpg",
+            "OPREGJan25_2.jpg",
+            "OPREGJan25_3.jpg",
+            "OPREGJan25_4.jpg"
+          ],
+          "title": "CLUB OPEN REGISTRATION SESSION JANUARY 2025",
+          "description": "On 5 February 2024, the German-Malaysian Institute (GMI) hosted an event to promote clubs and societies on the campus. CYSEC Club took this opportunity to promote itself to GMi students. From this event, CYSEC Club has received 50 new members, which maintains its title as the biggest club in the institute. As always, CYSEC Club committed to organizing an event as big as possible to ensure every member can enjoy and participate."
         }
       ]
     }
