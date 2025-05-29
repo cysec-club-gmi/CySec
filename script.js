@@ -192,6 +192,20 @@ document.addEventListener("DOMContentLoaded", () => {
     initializeSliders();
   };
 
+  const displayLatestEvent = (data, img, h4, p) => {
+    const newImg = document.createElement("img");
+    const title = h4;
+    const desc = p;
+    year = "2025";
+    imgPath = `./resources/past events/${year} event/`;
+
+    img.appendChild(newImg);
+    newImgName = data.events.pastEvent.year2025[0].image[0];
+    newImg.src = imgPath + newImgName;
+    title.textContent = `🚩 ${data.events.pastEvent.year2025[0].title}`;
+    desc.textContent = data.events.pastEvent.year2025[0].description;
+  };
+
   // hamburger menu
   const hamburger = document.getElementById("hamburger");
   const navMenu = document.getElementById("navMenu");
@@ -385,31 +399,25 @@ document.addEventListener("DOMContentLoaded", () => {
       const upomingEventImgElement = document.querySelector(
         "#event .sec-section .content .image-wrapper img"
       );
-      const pastEventImgElement = document.querySelector(
-        ".white-page .content .content-container .image-crop .container img"
-      );
 
-      if (latestEventimgElement) {
-        const newImg = document.createElement("img");
-        latestEventimgElement.appendChild(newImg);
-
-        newImgName = data.events.latestEvent.image;
-        newImg.src = `./resources/events/${newImgName}`;
-      }
-
-      if (latestEventh4Element) {
-        latestEventh4Element.textContent += data.events.latestEvent.title;
-      }
-
-      if (latestEventPElement) {
-        latestEventPElement.innerHTML = data.events.latestEvent.description;
+      if (
+        latestEventimgElement &&
+        latestEventh4Element &&
+        latestEventPElement
+      ) {
+        displayLatestEvent(
+          data,
+          latestEventimgElement,
+          latestEventh4Element,
+          latestEventPElement
+        );
       }
 
       if (upomingEventPElement) {
-        upomingEventPElement.innerHTML = data.events.upcomingEvent.title;
+        upomingEventPElement.textContent = data.events.upcomingEvent.title;
       }
 
-      if (upomingEventImgElement) {
+      if (upomingEventImgElement && upomingEventPElement) {
         if (data.events.upcomingEvent.image.length == 0) {
           const buttonReg = document.querySelector(
             "#event .sec-section .content button"
