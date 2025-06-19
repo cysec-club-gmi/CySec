@@ -9,94 +9,94 @@
       "year2024": [
         {
           "image": [
-            "MikroCTF24_1.webp", 
-            "PosterMicroCTF.webp",
-            "MicroCTFChampions.webp",
-            "MikroCTF24_2.webp",
-            "MikroCTF24_3.webp",
-            "MikroCTF24_4.webp",
-            "MikroCTF24_5.webp",
-            "MikroCTF24_6.webp"
+            "MikroCTF24_1.jpg", 
+            "PosterMicroCTF.png",
+            "MicroCTFChampions.png",
+            "MikroCTF24_2.jpg",
+            "MikroCTF24_3.jpg",
+            "MikroCTF24_4.jpg",
+            "MikroCTF24_5.jpg",
+            "MikroCTF24_6.jpg"
         ],
           "title": "GMi MicroCTF 2024",
           "description": "To conclude 2024, the CYSEC Club held GMi microCTF 2024, with collaboration and support from MFBKTECH, RE:HACK, ASK PENTEST, MARHAENPAY, and BLUESIFY. This university-level CTF competition attracts more than 30 teams and has a total prize pool of RM1,800. This program allows the CYSEC Club to identify hidden gems and outstanding students who can be developed to their full potential."
         },
          {
           "image": [
-            "CSRWD_1.webp", 
-            "CSRWD_2.webp",
-            "CSRWD_3.webp",
-            "CSRWD_4.webp"
+            "CSRWD_1.png", 
+            "CSRWD_2.png",
+            "CSRWD_3.png",
+            "CSRWD_4.png"
         ],
           "title": "CSR WEB DEFACEMENT DEMONSTRATION",
           "description": "On 15 October 2024, CYSEC Club is hosted a community service program. This time, the community service program involves ILP Selandar, an industrial training institute. The objective of this program is to demonstrate potential risks of web security and mitigation techniques against web defacement."
         },
         {
           "image": [
-            "SHERPACM_1.webp", 
-            "SHERPACM_2.webp",
-            "SHERPACM_3.webp",
-            "SHERPACM_4.webp",
-            "SHERPACM_5.webp"
+            "SHERPACM_1.png", 
+            "SHERPACM_2.png",
+            "SHERPACM_3.png",
+            "SHERPACM_4.png",
+            "SHERPACM_5.png"
         ],
           "title": "SHERPASEC X CYSEC CYBERSECURITY MEETUP",
           "description": "On October 10, 2024, the CYSEC Club partnered with SHERPASEC, a local cybersecurity community, to hold a cybersecurity meetup at the German-Malaysian Institute.  The primary goal of this cybersecurity meetup is to look into the significance of the Malaysian government's decision on the controversial DNS Redirection Policy.  This event can help provide insight into contemporary cybersecurity and policy trends."
         },
         {
           "image": [
-            "GCTFWorkshop1.webp", 
-            "GCTFWorkshop2.webp"
+            "GCTFWorkshop1.png", 
+            "GCTFWorkshop2.png"
         ],
           "title": "GIRL IN CTF WORKSHOP",
           "description": "As a build-up to RE:HACK's Girl In CTF 2024 competition. A workshop for five female CTF teams was organized by the CYSEC Club on their own initiative. Methodologies for many CTF categories, including web exploitation and OSINT, are covered in this training. To make sure the participants have the necessary skills, cybersecurity students Muhammad Aliff Zulhelmi and Adlie Hadif have volunteered for this three-session program."
          },
         {
           "image": [
-            "IBOH24_1.webp", 
-            "IBOH24_2.webp"
+            "IBOH24_1.png", 
+            "IBOH24_2.png"
         ],
           "title": "INTERNATIONAL BATTLE OF HACKERS 2024",
           "description": "On September 28, 2024, the CYSEC Club funded 2 CTF teams from the German-Malaysian Institute to compete in an international CTF competition against over 100 other teams. This competition sparked GMI's CTF culture. The goal of club participation in this event is to help talented kids compete in competition and improve their talents."
          },
          {
           "image": [
-            "IHACK1.webp", 
-            "IHACK2.webp",
-            "IHACK3.webp"
+            "IHACK1.png", 
+            "IHACK2.png",
+            "IHACK3.png"
         ],
           "title": "CYBERDSA CTF, I-HACK FINAL 2024",
           "description": "On the same day as CYBERDSA 2024, I-HACK FINAL 2024 is also a prominent event. The Malaysian Armed Forces' Defense Cyber and Electromagnetic Division (BSEP) and TM One are organizing a CTF competition against 20 teams from across Malaysia. The final round is played in the Attack-Defense format. The CYSEC Club supported one team with four members go to the final round."
         },
         {
           "image": [
-            "CYBERDSA1.webp", 
-            "CYBERDSA2.webp",
-            "CYBERDSA3.webp"
+            "CYBERDSA1.png", 
+            "CYBERDSA2.png",
+            "CYBERDSA3.png"
         ],
           "title": "TRIP TO CYBERDSA 2024 CONFERENCE",
           "description": "On 8 August 2024, CYSEC Club planned a trip to the cybersecurity conference CYBERDSA. This trip was participated in by 40 GMI Network Security students. The goal of this trip is to bridge the gap between industry professionals and students. Besides, this event helps students seek internships and gain insight regarding current cybersecurity trends."
         },
         {
           "image": [
-            "OPREGJuly24-1.webp", 
-            "OPREGJuly24-2.webp",
-            "OPREGJuly24-3.webp"
+            "OPREGJuly24-1.png", 
+            "OPREGJuly24-2.png",
+            "OPREGJuly24-3.png"
         ],
           "title": "CLUB OPEN REGISTRATION SESSION JULY 2024",
           "description": "On 7 August 2024, the German-Malaysian Institute (GMI) hosted an event to promote clubs and societies on the campus. CYSEC Club took this very first opportunity to promote itself to GMi students. From this event, CYSEC Club has received 200+ new members, which will turn it into the biggest club in the institute. Starting here, CYSEC Club committed to organizing an event as big as possible to ensure every member can enjoy and participate."
         },
         {
           "image": [
-            "CTFTPParticipantsCropped.webp", 
-            "CTFTPBinaryExploit.webp"
+            "CTFTPParticipantsCropped.jpg", 
+            "CTFTPBinaryExploit.jpg"
         ],
           "title": "CAPTURE THE FLAG (CTF) TRAINING PROGRAM",
           "description": "From July 15, 2024 until July 19, 2024, the CYSEC Club took the initiative to start a special CTF training program taught by GMi Alumni, Mr. Firdaus Khairuddin. The training, split into 3 sessions, covered many categories of CTF challenges. The aim of this program is to equip students with core skills and knowledge in CTF competitions."
         },
         {
           "image": [
-            "CSRProgramCarHacking.webp", 
-            "CSR-WIFIandCAR.webp"
+            "CSRProgramCarHacking.jpg", 
+            "CSR-WIFIandCAR.png"
           ],
           "title": "CSR WI-FI HACKING & CAR HACKING",
           "description": "The first event the CYSEC Club arranged was a community service activity on July 11, 2024. Students from SMK Bandar Damai Perdana, a secondary school in Selangor, Malaysia, participated in this initiative. This program's goal is to show how hackers can compromise a network and hack a car. This program's goal is to give students early exposure to the field of cybersecurity, teach them self-defense skills, and foster in them a cautious mindset."
@@ -105,54 +105,54 @@
       "year2025": [
                 {
           "image": [
-            "VisitNexagate.webp",
-            "Nexa_SOC_CENTRE.webp",
-            "Nexa_Showcase.webp",
-            "GMI_GENERATION.webp"
+            "VisitNexagate.jpeg",
+            "Nexa_SOC_CENTRE.jpeg",
+            "Nexa_Showcase.jpeg",
+            "GMI_GENERATION.JPG"
           ],
           "title": "SOC VISIT TO NEXAGATE",
           "description": "Embarked on a field trip for 40 students of German-Malaysian Institute to Nexagate, South East Asian’s leading cybersecurity firm. The trip featured hands-on insights into Security Operations Centers (SOC), live penetration testing demos, and incident response protocols. Participants experienced real-world cyberattack simulations and engaged with industry experts, gaining a deeper understanding of digital defense strategies."
         },
         {
           "image": [
-            "MobilePT.webp",
-            "rawSEC_Workshop_Participants.webp",
-            "rawSEC_SLIDE.webp",
-            "Participant_Sharing.webp"
+            "MobilePT.jpg",
+            "rawSEC_Workshop_Participants.jpg",
+            "rawSEC_SLIDE.jpg",
+            "Participant_Sharing.jpg"
           ],
           "title": "MOBILE PENETRATION TESTING WORKSHOP",
           "description": "The CYSEC Club and rawSEC worked together to host a session on April 26, 2025.  This workshop's focus is mobile penetration testing (Android).  Students will learn the fundamentals of developing mobile applications, how to exploit Android device vulnerabilities, and how to run a remote access trojan in an Android-controlled environment.  Forty students are taking part in this event."
         },
         {
-          "image": ["PhishingPoster.webp", "WebinarOnGoing.webp"],
+          "image": ["PhishingPoster.jpg", "WebinarOnGoing.jpg"],
           "title": "PHISHING AWARENESS WEBINAR",
           "description": "On 22nd March 2025, CYSEC Club collaborated with OWASP, 0day Academy and OffSec in conducting an online webinar open to all universities nationwide. The major topic of this webinar is Social Engineering & Phishing in The Age Of AI. This webinar explains how social engineering works, how malicious actors leverage AI technology to craft a payload, and mitigation techniques that may be used to defend against these actors."
         },
         {
           "image": [
-            "BTEPoster.webp",
-            "BTE_BRIEFING_2.webp",
-            "BTE_WINNERS_CROPPED.webp"
+            "BTEPoster.jpg",
+            "BTE_BRIEFING_2.png",
+            "BTE_WINNERS_CROPPED.jpg"
           ],
           "title": "GMi BREAK THE ENIGMA CTF",
           "description": "On March 18, 2025, the CYSEC Club organizes an internal university capture-the-flag competition focused on cryptography.  Compete against over 40 other student to earn a total prize fund of RM600.  The CYSEC Club challenge creator has prepared 40+ difficulties ranging from symmetrical and asymmetrical encryption to hashing and obfuscation for players to solve."
         },
         {
           "image": [
-            "WORKSHOP_MCC24_ALUMNI.webp",
-            "BLUE_TEAM_SLIDE.webp",
-            "RED_TEAM_SLIDE.webp",
-            "INTERACTIVE_LEARNING.webp"
+            "WORKSHOP_MCC24_ALUMNI.jpg",
+            "BLUE_TEAM_SLIDE.jpg",
+            "RED_TEAM_SLIDE.jpg",
+            "INTERACTIVE_LEARNING.jpg"
           ],
           "title": "RED & BLUE TEAM WORKSHOP BY MCC 2024 ALUMNIS",
           "description": "The CYSEC Club hosted a unique session with alumni of the Malaysia CyberSecurity Camp 2024 from February 22 to February 23, 2025.  The workshop's topics center on the theory and core of the blue team and the red team.  This workshop's goal is to provide a clear understanding of the duties and responsibilities of both the Red Team and the Blue Team.  Thus, assisting students in choosing their industry career path."
         },
         {
           "image": [
-            "OPREGJan25_1.webp",
-            "OPREGJan25_2.webp",
-            "OPREGJan25_3.webp",
-            "OPREGJan25_4.webp"
+            "OPREGJan25_1.jpg",
+            "OPREGJan25_2.jpg",
+            "OPREGJan25_3.jpg",
+            "OPREGJan25_4.jpg"
           ],
           "title": "CLUB OPEN REGISTRATION SESSION JANUARY 2025",
           "description": "On 5 February 2025, the German-Malaysian Institute (GMI) hosted an event to promote clubs and societies on the campus. CYSEC Club took this opportunity to promote itself to GMi students. From this event, CYSEC Club has received 50 new members, which maintains its title as the biggest club in the institute. As always, CYSEC Club committed to organizing an event as big as possible to ensure every member can enjoy and participate."
