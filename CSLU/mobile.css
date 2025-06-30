@@ -1,0 +1,1087 @@
+:root {
+  --purple-cslu: #ff0299;
+  --red: #ff0001;
+  --blue: #3653a7;
+  --light-blue: #21f0f9;
+  --purple: #7673da;
+
+  --grad-top: #127fbd;
+  --grad-bot: #191265;
+  --primary-color: #ecebeb;
+  --secondary-color: #151515;
+  --button-color: #1375b5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body {
+  visibility: hidden;
+} */
+
+img {
+  user-select: none;
+}
+
+/* hero section */
+.hero {
+  height: 100vh;
+  position: relative;
+  background-image: url("./resources/background/hero-background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-center .image-round {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-round-cslu {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-boom {
+    width: 170vw;
+    position: relative;
+    left: 3%;
+}
+
+.image-round-cslu .hero-cslu-logo {
+    width: 130vw;
+}
+
+.join-btn {
+    width: 100%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.join-btn a {
+  padding: 0.5rem 5rem;
+  background-color: white;
+  border: 5px solid var(--purple-cslu);
+  border-radius: 50px;
+  color: #000;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  box-shadow: -7px 5px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.cslu-information {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.cslu-information .background {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cslu-information .background .red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  background-color: var(--red);
+  z-index: 4;
+}
+
+.cslu-information .background .red-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+}
+
+.cslu-information .background .red-border2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 105px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  background-color: white;
+  z-index: 3;
+}
+
+.cslu-information .background .blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 0 0, 5% 100%, 0 100%);
+  background-color: var(--blue);
+  z-index: 2;
+}
+
+.cslu-information .background .blue-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, calc(0% + 10px) 0, calc(5% + 10px) 100%, 0 100%);
+  background-color: white;
+  z-index: 1;
+}
+
+.cslu-information .background .purple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--purple);
+}
+
+.cslu-information .content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 6;
+}
+
+
+.cslu-information .content .left-side .image-round {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cslu-information .content .left-side .image-round img:nth-child(1) {
+    width: 130vw;
+        position: relative;
+    right: 3%;
+}
+
+.cslu-information .content .left-side .image-round img:nth-child(2) {
+    width: 90vw;
+    position: absolute;
+}
+
+
+.cslu-information .content .right-side {
+    padding: 5% 10% 10% 10%;
+}
+
+.cslu-information .content .right-side h1 {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  color: white;
+
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.cslu-information .content .right-side p {
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vw;
+  color: white;
+
+}
+
+/* rehack information */
+.rehack-info {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.rehack-info .background {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.rehack-info .light-blue {
+  height: 100%;
+  width: 100%;
+  background-color: var(--light-blue);
+}
+
+.rehack-info .background .red-light-blue-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  z-index: 5;
+}
+
+.rehack-info .background .red-light-blue-divider2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105px;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  background-color: white;
+  z-index: 2;
+}
+
+.rehack-info .background .red-light-blue-divider3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  clip-path: polygon(0 0, 32% 0, 37% 87%, 0 100%);
+  background-color: white;
+  z-index: 3;
+}
+
+.rehack-info .background .red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  background-color: var(--red);
+  z-index: 2;
+}
+
+.rehack-info .background .light-blue-red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  clip-path: polygon(0 0, 30% 0, 35% 87%, 0 100%);
+  background-color: var(--light-blue);
+  z-index: 4;
+}
+
+.rehack-info .background .purple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0 100%);
+  background-color: var(--purple);
+  z-index: 1;
+}
+
+.rehack-info .background .purple-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, calc(80% + 5px) 0, calc(100% + 5px) 100%, 0 100%);
+  background-color: white;
+}
+
+.rehack-info .content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 6;
+}
+
+
+.rehack-info .content .left-side .image-round {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rehack-info .content .left-side .image-round img:nth-child(1) {
+    width: 130vw;
+    position: relative;
+    right: 3%;
+}
+
+.rehack-info .content .left-side .image-round img:nth-child(2) {
+    width: 60vw;
+    position: absolute;
+}
+
+
+.rehack-info .content .right-side {
+    padding: 5% 10% 10% 10%;
+}
+
+.rehack-info .content .right-side h1 {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  color: white;
+
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.rehack-info .content .right-side p {
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  color: white;
+
+}
+
+.cysec-info {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.cysec-info .background {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cysec-info .background .red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  background-color: var(--red);
+  z-index: 4;
+}
+
+.cysec-info .background .red-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+}
+
+.cysec-info .background .red-border2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 105px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+  background-color: white;
+  z-index: 3;
+}
+
+.cysec-info .background .blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 0 0, 5% 100%, 0 100%);
+  background-color: var(--blue);
+  z-index: 2;
+}
+
+.cysec-info .background .blue-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, calc(0% + 10px) 0, calc(5% + 10px) 100%, 0 100%);
+  background-color: white;
+  z-index: 1;
+}
+
+.cysec-info .background .purple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--purple);
+}
+
+.cysec-info .content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 6;
+}
+
+
+.cysec-info .content .left-side .image-round {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cysec-info .content .left-side .image-round img:nth-child(1) {
+    width: 130vw;
+        position: relative;
+    right: 3%;
+}
+
+.cysec-info .content .left-side .image-round img:nth-child(2) {
+    width: 60vw;
+    position: absolute;
+}
+
+
+.cysec-info .content .right-side {
+    padding: 5% 10% 10% 10%;
+}
+
+.cysec-info .content .right-side h1 {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  color: white;
+
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.cysec-info .content .right-side p {
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vw;
+  color: white;
+
+}
+
+/* supporting-oragnization */
+.supp-organization {
+  height: 100vh;
+  position: relative;
+  background-color: #f0eae5;
+}
+
+.supp-organization .background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.supp-organization .background .blue {
+  background-color: var(--purple);
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  width: 15%;
+  height: 50px;
+}
+
+.supp-organization .background .purple {
+  background-color: var(--purple);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+  width: 15%;
+  height: 50px;
+}
+
+.supp-organization .center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.supp-organization .center h1 {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+
+  padding: 0.5rem 0;
+  border-radius: 50px 0;
+  z-index: 1;
+}
+
+.supp-organization .center img {
+    margin-top: 15%;
+  width: 90vw;
+  z-index: 1;
+}
+
+.supp-organization .comic-cloud {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.supp-organization .comic-cloud .cloud-container:nth-child(1) {
+  position: absolute;
+  bottom: -15%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.supp-organization .comic-cloud .cloud-container:nth-child(1) img {
+  width: 100vw;
+  position: relative;
+  left: -30%;
+}
+
+.supp-organization .comic-cloud .cloud-container:nth-child(2) {
+  position: absolute;
+  bottom: -15%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.supp-organization .comic-cloud .cloud-container:nth-child(2) img {
+  width: 100vw;
+  position: relative;
+  left: 40%;
+  z-index: 1;
+}
+
+/* objective */
+.objective {
+  height: 120vh;
+  position: relative;
+}
+
+/* .objective .empty {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+} */
+
+.objective .center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 15% 5% 5% 5%;
+}
+
+.objective .center > h1 {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.objective .center .cards {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+
+.objective .center .cards .card {
+  min-width: 40%;
+
+  position: relative;
+  border: 3px solid var(--blue);
+  border-radius: 50px 0;
+  margin: 2rem;
+  box-shadow: 10px 8px;
+}
+
+.objective .center .cards .card .point {
+  max-width: 4.5rem;
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--blue);
+  border-radius: 50px;
+  background-color: white;
+}
+
+.objective .center .cards .card .point h1 {
+  color: var(--blue);
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+}
+
+.objective .center .cards .card h3 {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  padding: 1% 3rem;
+}
+
+.objective .center .cards .card p {
+  padding: 1% 1%;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+}
+
+.banner {
+    height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  max-width: 80vw;
+}
+
+/* timeline & venue */
+.timeline-venue {
+  padding: 2%;
+  min-height: 100vh;
+}
+
+.timeline-venue > h1 {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.timeline-venue .text-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-venue .text-center > div {
+  padding: 1%;
+}
+
+.timeline-venue .text-center p {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+  padding-left: 5px;
+}
+
+.timeline-venue .text-center .date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.timeline-venue .text-center .venue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.timeline-venue .text-center .date img, .timeline-venue .text-center .venue img {
+    width: 2vw;
+}
+
+.mobile-timeline {
+  padding: 40px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.day-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+    color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.timeline-entry {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.time {
+  font-size: 5vw;
+  color: #555;
+  margin-bottom: 8px;
+    font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.timeline-venue .content {
+  background: #00d4ff;
+  color: white;
+  border-radius: 9999px;
+  padding: 10px 16px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-venue .content img {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: content-box;
+}
+
+/* key activities */
+.key-activities {
+  height: 100vh;
+  background-color: #f0eae5;
+  position: relative;
+
+}
+
+.key-activities .brush {
+  height: 20vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-activities .brush img {
+  height: 150vh;
+  width: 300%;
+  position: relative;
+  bottom: 95%;
+  z-index: 1;
+}
+
+.key-activities .header-text h1 {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+}
+
+.key-activities .center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.key-activities .center .cards {
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+
+.key-activities .center .cards .card {
+  min-width: 30%;
+  min-height: 40%;
+  position: relative;
+  border: 3px solid var(--blue);
+  border-radius: 0 50px;
+  margin: 2rem 4rem;
+  box-shadow: -7px 7px;
+  background-color: white;
+}
+
+.key-activities .center .cards .card .point {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--blue);
+  border-radius: 50px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.key-activities .center .cards .card .point img {
+  width: 70%;
+}
+
+.key-activities .center .cards .card h3 {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  padding: 5% 3rem;
+}
+
+/* join us */
+.join-us {
+  position: relative;
+  height: 130vh;
+  background-color: #f0eae5;
+}
+
+.join-us .header-text {
+  padding-top: 3%;
+}
+
+.join-us .header-text h1 {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black,
+    2px 0 0 black;
+    margin-top: 5%;
+}
+
+.join-us .posters {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.join-us .posters img {
+  margin: 5% 0;
+  width: 70vw;
+}
+
+.join-us .posters img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.join-us .reg-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.join-us a {
+  padding: 0.5rem 5rem;
+  background-color: white;
+  border: 5px solid var(--blue);
+  border-radius: 50px;
+  color: #000;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  box-shadow: -7px 5px;
+  display: inline-block;
+  overflow: visible;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.footer-curve {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.footer-curve svg {
+  position: relative;
+  display: block;
+  width: calc(174% + 1.3px);
+  height: 140px;
+}
+
+.footer-curve .shape-fill {
+  fill: var(--secondary-color);
+}
+
+/* footer section */
+footer {
+  padding: 0.5rem;
+  text-align: center;
+  background: var(--secondary-color);
+  color: white;
+}
+
+footer h2 {
+  padding-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: clamp(2rem, 2vw, 3rem);
+}
+
+footer .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .icon-socmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .image-round {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin: 1rem;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--grad-top), var(--grad-bot));
+}
+
+footer a:not(:first-child) img {
+  filter: invert(1);
+}
+
+footer .image-round img {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  object-fit: contain; /* Make the whole image fit inside */
+  object-position: center;
+  display: block;
+}
+
+footer p {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  margin: 1rem;
+}
+
+footer .image-round {
+width: 50px;
+height: 50px;
+}
