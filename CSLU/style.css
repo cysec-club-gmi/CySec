@@ -25,9 +25,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
+body {
   visibility: hidden;
-} */
+}
 
 img {
   user-select: none;
