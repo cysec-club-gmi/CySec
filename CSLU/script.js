@@ -23,10 +23,13 @@ parallel.on("mousemove", (e) => {
 // mobile detecttion
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-$(document).ready(() => {
-  const currentPage = window.location.pathname;
+const currentPage = window.location.pathname;
 
-  if (isMobile && !currentPage.includes("mobile.html")) {
-    window.location.href = "./mobile.html";
-  }
-});
+if (isMobile && !currentPage.includes("mobile.html")) {
+  window.location.replace("./mobile.html");
+} else {
+  document.addEventListener("DOMContentLoaded", () => {
+    document.body.style.visibility = "visible";
+  });
+}
+
