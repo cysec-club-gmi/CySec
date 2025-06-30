@@ -20,15 +20,13 @@ parallel.on("mousemove", (e) => {
   boomImg.css("transform", `translate(${x / logoFactor}%, ${y / logoFactor}%)`);
 });
 
-// mobile detetcion
-const isMobile =
-  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Tablet/i.test(
-    navigator.userAgent
-  )
+// mobile detecttion
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 $(document).ready(() => {
+  const currentPage = window.location.pathname;
 
-  if (isMobile) {
-    window.location.href = "./mobile.html"
+  if (isMobile && !currentPage.includes("mobile.html")) {
+    window.location.href = "./mobile.html";
   }
 });
