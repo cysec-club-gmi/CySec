@@ -828,7 +828,9 @@ img {
   color: white;
   border-radius: 9999px;
   padding: 10px 16px;
-  font-weight: bold;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
   display: inline-flex;
   align-items: center;
   gap: 10px;
