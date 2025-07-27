@@ -103,7 +103,17 @@
         }
       ],
       "year2025": [
-                {
+        {
+          "image": [
+            "25FIRMUS_3.webp",
+            "25FIRMUS_1.webp",
+            "25FIRMUS_2.webp",
+            "25FIRMUS_4.webp"
+          ],
+          "title": "FIELD TRIP TO FIRMUS",
+          "description": "Our recent field trip to Firmus was an insightful journey into the heart of a leading cybersecurity firm. The session began with a warm opening speech by the CEO, Datuk Alan See, followed by engaging presentations from the Compliance, Solutions, Red Team, Blue Team, MDR, and People teams. Each team shared their roles, experiences, and real-world strategies, giving us a clearer view of the industry's dynamic landscape. It was an eye-opening experience that deepened our understanding of modern cybersecurity operations and career pathways."
+        },
+        {
           "image": [
             "VisitNexagate.webp",
             "Nexa_SOC_CENTRE.webp",
