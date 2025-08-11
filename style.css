@@ -49,6 +49,7 @@ header .logo {
 
 .logo img {
   width: 70px;
+  padding: .3rem;
 }
 
 .logo h1 {
@@ -2677,3 +2678,4 @@ footer p {
     height: 70px;
   }
 }
+
