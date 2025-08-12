@@ -1,9 +1,9 @@
 {
   "events": {
     "upcomingEvent": {
-      "image": "cslu-activity.jpg",
-      "title": "Cyber Skills Level Up 2025 (CSLU25) @ GMI - THIS AUGUST !",
-      "link": "https://cysec-club-gmi.github.io/CySec/CSLU/"
+      "image": "",
+      "title": "",
+      "link": ""
     },
     "pastEvent": {
       "year2024": [
@@ -191,3 +191,4 @@
     }
   }
 }
+
