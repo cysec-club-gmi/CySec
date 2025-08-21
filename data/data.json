@@ -1,9 +1,9 @@
 {
   "events": {
     "upcomingEvent": {
-      "image": "cysec-tee.jpg",
-      "title": "🚨 CYSEC Official Tee Pre-Order 🚨",
-      "link": "https://linktr.ee/gmi.cysecclub"
+      "image": "",
+      "title": "",
+      "link": ""
     },
     "pastEvent": {
       "year2024": [
@@ -191,5 +191,6 @@
     }
   }
 }
+
 
 
