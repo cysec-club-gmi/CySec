@@ -105,6 +105,16 @@
       "year2025": [
         {
           "image": [
+            "CSLU4.webp",
+            "CSLU3.webp",
+            "CSLU2.webp",
+            "CSLU1.webp"
+          ],
+          "title": "Cyber Skills Level Up (CSLU) @ GMI",
+          "description": "Cybersecurity Skills Level Up (CSLU) was a 2-day program by CYSEC and RE:HACK, sponsored by Dotcom and endorsed by NACSA, bringing 80 participants together for hands-on training and real-world scenarios. Day 1 covered Memory Analysis by Adlina and Malware Analysis by Affan Najiy, while Day 2 focused on Mobile Pentesting by Chai Cheng Xun and Web Exploitation by Firdaus Amran. The program also featured industry professionals, including Firdaus Khairuddin (Red Team) and Khairulazam (Blue Team), sharing their insights and experiences, and a short internship talk session by Nadiah Nasirah and Aliah Syafirah"
+        },
+        {
+          "image": [
             "25HTB_1.webp",
             "25HTB_2.webp",
             "25HTB_3.webp",
@@ -191,6 +201,7 @@
     }
   }
 }
+
 
 
 
