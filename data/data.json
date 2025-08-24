@@ -115,10 +115,10 @@
         },
         {
           "image": [
-            "25HTB_1.webp",
             "25HTB_2.webp",
+            "25HTB_4.webp",
             "25HTB_3.webp",
-            "25HTB_4.webp"
+            "25HTB_1.webp"
           ],
           "title": "Internal Hack The Box Meetup @ GMI",
           "description": "On Saturday, 26 July, we collaborated with ICE for a hands-on HTB technical workshop covering Active Directory, led by one of the MCC alumni, Ammar Nawfal. The session started with the basics of AD and gradually moved into a deep dive on Kerberos authentication, including real-world attack scenarios. It was a highly engaging workshop that strengthened participants’ foundational and practical knowledge in AD security."
@@ -201,6 +201,7 @@
     }
   }
 }
+
 
 
 
