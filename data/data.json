@@ -1,9 +1,9 @@
 {
   "events": {
     "upcomingEvent": {
-      "image": "",
-      "title": "",
-      "link": ""
+      "image": "kernel0 registration.png",
+      "title": "🎮 GMI KernelØ CTF 2025 🎮",
+      "link": "https://forms.gle/LdtiXhSrydXhKVeNA"
     },
     "pastEvent": {
       "year2024": [
@@ -201,6 +201,7 @@
     }
   }
 }
+
 
 
 
