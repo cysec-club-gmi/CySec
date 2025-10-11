@@ -103,7 +103,17 @@
         }
       ],
       "year2025": [
-                {
+        {
+          "image": [
+            "CDSA-1.webp",
+            "CDSA-2.webp",
+            "CDSA-3.webp",
+            "CDSA-4.webp"
+          ],
+          "title": "Trip to CyberDSA 2025 @ MITEC",
+          "description": "The CySec Club attended CyberDSA 2025 from 30 September to 2 October 2025 at MITEC, Kuala Lumpur. The event brought together global cybersecurity experts, industry leaders, and government representatives. Our members explored exhibitions, attended flash talks, and connected with professionals across various cyber domains. One of our teams, Puasa6, proudly represented GMI in the CyberDSA Finale CyberSiaga competition, showcasing our club’s growing presence in the cybersecurity scene."
+        },
+        {
           "image": [
             "ISC2-1.webp",
             "ISC2-2.webp",
@@ -211,6 +221,7 @@
     }
   }
 }
+
 
 
 
