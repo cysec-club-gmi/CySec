@@ -103,6 +103,16 @@
         }
       ],
       "year2025": [
+                {
+          "image": [
+            "ICS2-1.webp",
+            "ICS2-2.webp",
+            "ICS2-3.webp",
+            "ICS2-4.webp"
+          ],
+          "title": "HackNyx Special: Remote Exploitation with ISC2 Malaysia Chapter",
+          "description": "The CySec Club collaborated with ISC2 Malaysia Chapter for HackNyx Special: Remote Exploitation, held on 28 August 2025 at KT5, Level 10, CyberRange, GMI. The session featured Encik Ahmad Fuad Kamarazaman, Director (Academia Relation) of ISC2 Malaysia Chapter, as the guest speaker. He delivered a live remote exploitation demo focused on understanding remote cyber threats and protection strategies. The event provided students with real-world insights into remote attack mechanisms and defensive techniques, reinforcing our mission to inspire and equip the next generation of cybersecurity professionals through impactful academic engagement."
+        },
         {
           "image": [
             "CSLU4.webp",
@@ -201,6 +211,7 @@
     }
   }
 }
+
 
 
 
