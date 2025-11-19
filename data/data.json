@@ -103,6 +103,16 @@
         }
       ],
       "year2025": [
+         {
+          "image": [
+            "KCTF_1.webp",
+            "KCTF_2.webp",
+            "KCTF_3.webp",
+            "KCTF_4.webp"
+          ],
+          "title": "Kernel0 CTF (Online) @ GMI CySec",
+          "description": "The CySec Club successfully hosted the GMI KernelØ CTF 2025 from 19 to 21 October 2025. The internal competition brought together 79 participants, forming over 25 teams to tackle more than 40 challenges. The event tested skills across diverse categories, including Web Exploitation, Pwn, Reverse Engineering, Cryptography, Boot2Root and Forensics. We congratulate the winning teams for their outstanding performance: 1st Place (@.), 2nd Place (@hengker), and 3rd Place (@Re:Z3R0), showcasing the remarkable talent within our GMI cybersecurity community. The event was a high-stakes arena where students tested their mettle against a diverse range of 40+ challenges. Hence, the event successfully benchmarked and identified the next generation of cybersecurity talent within GMI."
+        },
         {
           "image": [
             "CDSA-1.webp",
@@ -221,6 +231,7 @@
     }
   }
 }
+
 
 
 
